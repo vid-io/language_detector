@@ -61,7 +61,7 @@ class LanguageDetector
       [ "hi", "hi-utf8.txt", "utf8", "hindi" ],
       [ "hr", "hr-utf8.txt", "utf8", "croatian" ],
       #id (indonesian)
-      [ "io", "io-utf8.txt", "utf8", "ido" ],
+      # [ "io", "io-utf8.txt", "utf8", "ido" ],
       [ "is", "is-utf8.txt", "utf8", "icelandic" ],
       [ "it", "it-utf8.txt", "utf8", "italian" ],
       [ "ja", "ja-utf8.txt", "utf8", "japanese" ],
