@@ -38,61 +38,61 @@ class LanguageDetector
 
     training_data = [
       # af (afrikaans)
+      # am (amharic)
       [ "ar", "ar-utf8.txt", "utf8", "arabic" ],
       [ "bg", "bg-utf8.txt", "utf8", "bulgarian" ],
-      # bs (bosnian )
+      # bn (bengali)
       # ca (catalan)
       [ "cs", "cs-utf8.txt", "utf8", "czech" ],
-      # cy (welsh)
       [ "da", "da-iso-8859-1.txt", "iso-8859-1", "danish" ],
       [ "de", "de-utf8.txt", "utf8", "german" ],
       [ "el", "el-utf8.txt", "utf8", "greek" ],
-      [ "en", "en-iso-8859-1.txt", "iso-8859-1", "english" ],
+      [ "en", "en-iso-8859-1.txt", "iso-8859-1", "english" ], # UTF-8?
       [ "et", "et-utf8.txt", "utf8", "estonian" ],
       [ "es", "es-utf8.txt", "utf8", "spanish" ],
-      [ "fa", "fa-utf8.txt", "utf8", "farsi" ],
+      # eu (basque)
+      [ "fa", "fa-utf8.txt", "utf8", "persian" ],
       [ "fi", "fi-utf8.txt", "utf8", "finnish" ],
+      # fil (filipino) Should be Tagalog?
       [ "fr", "fr-utf8.txt", "utf8", "french" ],
-      [ "fy", "fy-utf8.txt", "utf8", "frisian" ],
-      [ "ga", "ga-utf8.txt", "utf8", "irish" ],
-      #gd (gaelic)
-      #haw (hawaiian)
-      [ "he", "he-utf8.txt", "utf8", "hebrew" ],
+      # gl (galician)
+      # gu (gujarati)
       [ "hi", "hi-utf8.txt", "utf8", "hindi" ],
       [ "hr", "hr-utf8.txt", "utf8", "croatian" ],
-      #id (indonesian)
-      # [ "io", "io-utf8.txt", "utf8", "ido" ],
+      [ "hu", "hu-utf8.txt", "utf8", "hungarian" ],
+      # id (indonesian)
       [ "is", "is-utf8.txt", "utf8", "icelandic" ],
       [ "it", "it-utf8.txt", "utf8", "italian" ],
+      [ "iw", "he-utf8.txt", "utf8", "hebrew" ], # Old code. Stupid YouTube.
       [ "ja", "ja-utf8.txt", "utf8", "japanese" ],
+      # ka (kannada)
       [ "ko", "ko-utf8.txt", "utf8", "korean" ],
-      #ku (kurdish)
-      #la ?
-      #lb ?
-      #lt (lithuanian)
-      #lv (latvian)
-      [ "hu", "hu-utf8.txt", "utf8", "hungarian" ],
-      #mk (macedonian)
-      #ms (malay)
-      #my (burmese)
-      [ "nl", "nl-iso-8859-1.txt", "iso-8859-1", "dutch" ],
+      # ku (kurdish)
+      # lt (lithuanian)
+      # lv (latvian)
+      # ml (malayalam)
+      # mr (marathi)
+      # ms (malay)
+      [ "nl", "nl-iso-8859-1.txt", "iso-8859-1", "dutch" ], # UTF-8?
       [ "no", "no-utf8.txt", "utf8", "norwegian" ],
       [ "pl", "pl-utf8.txt", "utf8", "polish" ],
       [ "pt", "pt-utf8.txt", "utf8", "portuguese" ],
       [ "ro", "ro-utf8.txt", "utf8", "romanian" ],
       [ "ru", "ru-utf8.txt", "utf8", "russian" ],
+      # sk (slovak)
       [ "sl", "sl-utf8.txt", "utf8", "slovenian" ],
-      #sr (serbian)
-      [ "sv", "sv-iso-8859-1.txt", "iso-8859-1", "swedish" ],
-      #[ "sv", "sv-utf8.txt", "utf8", "swedish" ],
+      # sr (serbian)
+      [ "sv", "sv-iso-8859-1.txt", "iso-8859-1", "swedish" ], # UTF-8?
+      # sw (swahili)
+      # ta (tamil)
+      # te (telugu)
       [ "th", "th-utf8.txt", "utf8", "thai" ],
-      #tl (tagalog)
-      #ty (tahitian)
-      [ "uk", "uk-utf8.txt", "utf8", "ukraninan" ],
+      # tr (turkish)
+      [ "uk", "uk-utf8.txt", "utf8", "ukrainian" ],
+      # ur (urdu)
       [ "vi", "vi-utf8.txt", "utf8", "vietnamese" ],
-      #wa (walloon)
-      #yi (yidisih)
       [ "zh", "zh-utf8.txt", "utf8", "chinese" ]
+      # zu (zulu)
     ]
 
     profiles = []
